@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: oswald;
+    src: url(../oswald/Oswald-Medium.ttf)
+}
+
+body{
+background-image: url(../img/fond.png);
+}
+
+.container{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    overflow: auto;
+    margin-top: -8px;
+}
+
+nav{
+    background-color: #b8cb21;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+    font-family: oswald;
+    font-size: 1.3em;
+}
+
+nav ul li{
+    margin-left: 100px;
+    margin-bottom: 25px;
+    float: right;
+    text-decoration: underline;
+}
+
+nav ul li a{
+    color: black;
+}
+
+.article_div{
+    padding: 15px;
+}
+
+
+h2{
+    color: #b8cb21;
+    font-family: oswald;
+    margin-left: 20px;
+}
+
+.who_pic, .what_pic{
+    float: left;
+    width: 250px;
+    height: 100px;
+    padding-right: 5px;
+}
+
+p, .article_list{
+    color: gray;
+}
+
+.article_list{
+    margin-left: 60px;
+}
+
+article{
+    clear: both;
+    overflow: auto;
+}
+
+.read_more{
+    float: right;
+    background-color: #b8cb21;
+    color: white;
+    border: #b8cb21;
+    margin-right: 35px;
+    height: 30px;
+}
+
+.academy_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+footer{
+    text-align: center;
+    font-size: smaller;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.under{
+    color: purple;
+}
